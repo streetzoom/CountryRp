@@ -1,6 +1,6 @@
 Config = Config or {}
 
-Config.MinZOffset = 30
+Config.MinZOffset = 15 -- default 30 | how far under the ground shells will spawn
 Config.RamsNeeded = 2
 Config.UnownedBlips = true
 
