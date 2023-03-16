@@ -1,0 +1,243 @@
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for _cfx_internal
+[38;5;83m[           resources] [0m[0m[32mScanning resources.[0m
+[38;5;83m[           resources] [0m[0m[32mFound 153 resources.[0m
+[38;5;66m[          svadhesive] [0m[0mAuthenticating server license key...
+[38;5;66m[          svadhesive] [0m[0mServer license key authentication succeeded. Welcome!
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for sessionmanager
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource sessionmanager
+[38;5;171m[                 cmd] [0m[0mNo such command ip.
+[38;5;171m[                 cmd] [0m[0mNo such command port.
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for mapmanager
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mapmanager
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for yarn
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource yarn
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for webpack
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource webpack
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for chat
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource chat
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource spawnmanager
+[38;5;154m[   script:mapmanager] [0m[0mStarted gametype Freeroam
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource basic-gamemode
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for hardcap
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource hardcap
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for baseevents
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource baseevents
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for oxmysql
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource oxmysql
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-core
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-core
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for UmAdminMenu
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource UmAdminMenu
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-ambulancejob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-ambulancejob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-interior
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-clothing
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-clothing
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-weathersync
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-weathersync
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-apartments
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-apartments
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-atms
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-atms
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-banking
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-banking
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for PolyZone
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PolyZone
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-bankrobbery
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-bankrobbery
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-busjob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-busjob
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-cityhall
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-cityhall
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-commandbinding
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-commandbinding
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource mhacking
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-crypto
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-crypto
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-customs2
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-customs2
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-diving
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-diving
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-doorlock
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-doorlock
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-drugs
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-drugs
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-fitbit
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-fitbit
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-garages
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-garages
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-garbagejob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-garbagejob
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-hotdogjob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-hotdogjob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-lockpick
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-skillbar
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-houserobbery
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-houserobbery
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-houses
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-houses
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-hud
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-hud
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-input
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-inventory
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-inventory
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-jewelery
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-jewelery
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-jobmenu
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-jobmenu
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-keyminigame
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-lapraces
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-lapraces
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-loading
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-management
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-management
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-mechanicjob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-mechanicjob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-menu
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-spawn
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-spawn
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-multicharacter
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-multicharacter
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-newsjob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-newsjob
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-pawnshop
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-pawnshop
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-phone
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-phone
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-policejob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-policejob
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-prison
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-prison
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-radialmenu
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-radialmenu
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-recyclejob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-recyclejob
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-scoreboard
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-scoreboard
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-scrapyard
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-scrapyard
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-shops
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-shops
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-smallresources
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-smallresources
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-storerobbery
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-storerobbery
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-streetraces
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-streetraces
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-target
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-taxijob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-taxijob
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-towjob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-towjob
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-traphouse
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-traphouse
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-truckerjob
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-truckerjob
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-truckrobbery
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-truckrobbery
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-tunerchip
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-tunerchip
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-vehiclefailure
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-vehiclefailure
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-vehiclekeys
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-vehiclekeys
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-vehiclesales
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-vehiclesales
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-vehicleshop
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-vehicleshop
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-vineyard
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-vineyard
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-weapons
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-weapons
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-weed
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-weed
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource BetterBraddockHighway
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource BetterChiliadRoads
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource HelideckLightingSystem
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for MmoSpeedCameras
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource MmoSpeedCameras
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource MoreTrafficLightsSigns
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource OpenTrailerInteriors
+[38;5;73m[ citizen-server-impl] [0m[0m[94mAsset PaletoAirport/patoche_oldhouse_ground2.ydr uses 24.0 MiB of virtual memory.[0m
+[38;5;73m[ citizen-server-impl] [0m[0m[93mAsset PaletoAirport/patoche_oldhouse_text1.ytd uses 58.0 MiB of physical memory. Oversized assets can and WILL lead to streaming issues (models not loading/rendering, commonly known as 'texture loss', 'city bug' or 'streaming isn't great').[0m
+[38;5;73m[ citizen-server-impl] [0m[0m[94mAsset PaletoAirport/patoche_oldhouse_text2.ytd uses 26.0 MiB of physical memory.[0m
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoAirport
+[38;5;73m[ citizen-server-impl] [0m[0m[94mAsset PaletoBikerMechanics/bkr_biker_int01_shell.ydr uses 18.0 MiB of physical memory.[0m
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoBikerMechanics
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoBridgePoliceStop
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoCarWash
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoGasStation
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoGym
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoHighwayUpd
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoHospital
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoHouse
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoIslands
+[38;5;73m[ citizen-server-impl] [0m[0m[94mAsset PaletoLostMSBar/cclosp_txd.ytd uses 16.6 MiB of physical memory.[0m
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoLostMSBar
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoNorth-WestHighwayUpd
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoPalms
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoParkingUpd
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoSheriff
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoSkatePark
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoTrees
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoTruckYard
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoUndergroundHospital
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyBikerBar
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyFireStation
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyGasStationUpgrades
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyHospital
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyJoshuaRoadUpd
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyMorePalms
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyPolice
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyPolice&Hospital
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyRailRoadMethHighout
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyScrapYard
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyTrainWreck
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource SandyWorkshop
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource dealer_map
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource grapeauto
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource prison_canteen
+[38;5;73m[ citizen-server-impl] [0m[0m[94mAsset prison_main/desertos_prison.ytd uses 30.5 MiB of physical memory.[0m
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource prison_main
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource prison_meeting
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource prompt_paleto_clinic
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for LegacyFuel
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource LegacyFuel
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource bob74_ipl
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for connectqueue
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource connectqueue
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for dpemotes
+[38;5;133m[     script:dpemotes] [0m[0m[dp] [93mSql Keybinding[0m is turned [91moff[0m, if you want to enable /emotebind, import dpkeybinding.sql and set [93mSqlKeybinding = [32mtrue[0m in config.lua.
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource dpemotes
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for interact-sound
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource interact-sound
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource menuv
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource progressbar
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource safecracker
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for screenshot-basic
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource screenshot-basic
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for pma-voice
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource pma-voice
+[38;5;161m[    c-scripting-core] [0m[0mCreating script environments for qb-radio
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource qb-radio
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PaletoSheriffP
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PoliceAlamo
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PoliceBuffalo
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource PoliceGauntlet
+[38;5;171m[                 cmd] [0m[0mArgument count mismatch (passed 2, wanted 1)
+cfx> [38;5;17m[  script:UmAdminMenu] [0m[0m[31m[UM-Admin] new version is available! 1.3.0[0m [https://github.com/alp1x/um-admin]
+[38;5;154m[   script:mapmanager] [0m[0mStarted map fivem-map-skater
+[38;5;73m[ citizen-server-impl] [0m[0mStarted resource fivem-map-skater
+[38;5;171m[                 cmd] [0m[0mAccess denied for command add_ace.
+[38;5;171m[                 cmd] [0m[0mAccess denied for command add_ace.
+[38;5;171m[                 cmd] [0m[0mAccess denied for command add_ace.
+[38;5;42m[      script:oxmysql] [0m[0m[32mDatabase server connection established![97m
+[38;5;133m[     script:dpemotes] [0m[97m
+[38;5;133m[     script:dpemotes] [0m[97mdp Emotes (dpemotes) is up to date. ([32m173[0m)
+[38;5;73m[ citizen-server-impl] [0m[0m[91m        fff                          
+[38;5;73m[ citizen-server-impl] [0m[91m[91m  cccc ff   xx  xx     rr rr    eee  
+[38;5;73m[ citizen-server-impl] [0m[91m[91mcc     ffff   xx       rrr  r ee   e 
+[38;5;73m[ citizen-server-impl] [0m[91m[91mcc     ff     xx   ... rr     eeeee  
+[38;5;73m[ citizen-server-impl] [0m[91m[91m ccccc ff   xx  xx ... rr      eeeee 
+[38;5;73m[ citizen-server-impl] [0m[91m                                     [0m
+[38;5;73m[ citizen-server-impl] [0m[0m[32mAuthenticated with cfx.re Nucleus: [0mhttps://loollein-ev4gp3.users.cfx.re/
