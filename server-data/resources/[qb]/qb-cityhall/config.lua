@@ -4,10 +4,10 @@ Config.UseTarget = GetConvar('UseTarget', 'false') == 'true' -- Use qb-target in
 
 Config.Cityhalls = {
     { -- Cityhall 1
-        coords = vec3(-265.0, -963.6, 31.2),
+        coords = vector3(-144.08, 6292.69, 31.49),
         showBlip = true,
         blipData = {
-            sprite = 487,
+            sprite = 419,
             display = 4,
             scale = 0.65,
             colour = 0,
@@ -48,15 +48,15 @@ Config.DrivingSchools = {
             "DXT09752",
             "SRI85140",
         }
-    },
+    }, 
 }
 
 Config.Peds = {
     -- Cityhall Ped
     {
         model = 'a_m_m_hasjew_01',
-        coords = vec4(-262.79, -964.18, 30.22, 181.71),
-        scenario = 'WORLD_HUMAN_STAND_MOBILE',
+        coords = vector4(-151.9, 6301.57, 30.49, 308.26),
+        scenario = 'WORLD_HUMAN_CLIPBOARD',
         cityhall = true,
         zoneOptions = { -- Used for when UseTarget is false
             length = 3.0,
