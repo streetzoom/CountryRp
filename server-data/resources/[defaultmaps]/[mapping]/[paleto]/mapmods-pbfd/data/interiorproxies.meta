@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SInteriorOrderData>
+  <startFrom value="2030" />
+  <proxies>
+    <Item>cs1_occl_07</Item>
+    <Item>cs1_occl_09</Item>
+    <Item>hei_cs1_06_strm_0</Item>
+    <Item>int_frd_milo_</Item>
+  </proxies>
+</SInteriorOrderData>
