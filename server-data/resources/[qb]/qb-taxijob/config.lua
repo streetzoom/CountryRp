@@ -15,53 +15,49 @@ Config.Meter = {
     ["startingPrice"] = 0  -- static starting price
 }
 
-Config.BossMenu = vector3(903.32, -170.55, 74.0)
+Config.BossMenu = vector3(-278.03, 6126.24, 31.5)  -- default:vector3(903.32, -170.55, 74.0) custom:vector3(-278.03, 6126.24, 31.5)
 
-Config.Location = vector4(909.5, -177.35, 74.22, 238.5)
+Config.Location = vector4(-282.05, 6129.89, 31.73, 121.72) -- default:vector4(909.5, -177.35, 74.22, 238.5) custom:vector4(-282.05, 6129.89, 31.73, 121.72)
 
 Config.NPCLocations = {
     TakeLocations = {
-        [1] = vector4(257.61, -380.57, 44.71, 340.5),
-        [2] = vector4(-48.58, -790.12, 44.22, 340.5),
-        [3] = vector4(240.06, -862.77, 29.73, 341.5),
-        [4] = vector4(826.0, -1885.26, 29.32, 81.5),
-        [5] = vector4(350.84, -1974.13, 24.52, 318.5),
-        [6] = vector4(-229.11, -2043.16, 27.75, 233.5),
-        [7] = vector4(-1053.23, -2716.2, 13.75, 329.5),
-        [8] = vector4(-774.04, -1277.25, 5.15, 171.5),
-        [9] = vector4(-1184.3, -1304.16, 5.24, 293.5),
-        [10] = vector4(-1321.28, -833.8, 16.95, 140.5),
-        [11] = vector4(-1613.99, -1015.82, 13.12, 342.5),
-        [12] = vector4(-1392.74, -584.91, 30.24, 32.5),
-        [13] = vector4(-515.19, -260.29, 35.53, 201.5),
-        [14] = vector4(-760.84, -34.35, 37.83, 208.5),
-        [15] = vector4(-1284.06, 297.52, 64.93, 148.5),
-        [16] = vector4(-808.29, 828.88, 202.89, 200.5),
+        [1] = vector4(-140.92, 6221.49, 31.35, 38.4),
+        [2] = vector4(15.01, 6284.95, 31.23, 150.95),
+        [3] = vector4(93.5, 6448.49, 31.41, 50.16),
+        [4] = vector4(152.32, 6640.33, 31.68, 146.21),
+        [5] = vector4(-56.01, 6523.58, 31.49, 308.58),
+        [6] = vector4(-13.06, 6505.16, 31.55, 59.79),
+        [7] = vector4(-46.61, 6473.49, 31.45, 52.03),
+        [8] = vector4(-134.35, 6383.05, 31.5, 55.59),
+        [9] = vector4(-164.8, 6385.43, 31.47, 224.77),
+        [10] = vector4(-104.13, 6342.86, 31.58, 244.57),
+        [11] = vector4(-139.16, 6304.82, 31.49, 337.52),
+        [12] = vector4(-199.37, 6349.19, 31.47, 230.32),
+        [13] = vector4(-233.32, 6314.83, 31.47, 225.16),
+        [14] = vector4(-297.85, 6251.99, 31.47, 216.98),
+        [15] = vector4(-285.46, 6235.84, 31.47, 47.02),
+        [16] = vector4(-347.53, 6170.08, 31.38, 78.7),
     },
     DeliverLocations = {
-        [1] = vector4(-1074.39, -266.64, 37.75, 117.5),
-        [2] = vector4(-1412.07, -591.75, 30.38, 298.5),
-        [3] = vector4(-679.9, -845.01, 23.98, 269.5),
-        [4] = vector4(-158.05, -1565.3, 35.06, 139.5),
-        [5] = vector4(442.09, -1684.33, 29.25, 320.5),
-        [6] = vector4(1120.73, -957.31, 47.43, 289.5),
-        [7] = vector4(1238.85, -377.73, 69.03, 70.5),
-        [8] = vector4(922.24, -2224.03, 30.39, 354.5),
-        [9] = vector4(1920.93, 3703.85, 32.63, 120.5),
-        [10] = vector4(1662.55, 4876.71, 42.05, 185.5),
-        [11] = vector4(-9.51, 6529.67, 31.37, 136.5),
-        [12] = vector4(-3232.7, 1013.16, 12.09, 177.5),
-        [13] = vector4(-1604.09, -401.66, 42.35, 321.5),
-        [14] = vector4(-586.48, -255.96, 35.91, 210.5),
-        [15] = vector4(23.66, -60.23, 63.62, 341.5),
-        [16] = vector4(550.3, 172.55, 100.11, 339.5),
-        [17] = vector4(-1048.55, -2540.58, 13.69, 148.5),
-        [18] = vector4(-9.55, -544.0, 38.63, 87.5),
-        [19] = vector4(-7.86, -258.22, 46.9, 68.5),
-        [20] = vector4(-743.34, 817.81, 213.6, 219.5),
-        [21] = vector4(218.34, 677.47, 189.26, 359.5),
-        [22] = vector4(263.2, 1138.81, 221.75, 203.5),
-        [23] = vector4(220.64, -1010.81, 29.22, 160.5),
+        [1] = vector4(-563.95, 5374.84, 70.22, 158.81),
+        [2] = vector4(-583.31, 5248.27, 70.47, 161.19),
+        [3] = vector4(-599.9, 5292.54, 70.21, 5.63),
+        [4] = vector4(715.06, 4175.16, 40.71, 277.89),
+        [5] = vector4(1328.69, 4333.26, 37.78, 97.27),
+        [6] = vector4(1346.43, 4371.9, 44.34, 247.84),
+        [7] = vector4(1700.18, 4725.43, 42.17, 21.09),
+        [8] = vector4(1687.75, 4764.46, 41.93, 10.68),
+        [9] = vector4(2017.79, 4977.14, 41.24, 43.59),
+        [10] = vector4(1913.92, 4938.54, 48.68, 147.09),
+        [11] = vector4(2109.35, 4708.93, 40.8, 317.1),
+        [12] = vector4(2351.08, 4845.39, 40.92, 120.49),
+        [13] = vector4(2455.2, 4944.47, 45.05, 136.39),
+        [14] = vector4(2549.38, 4679.29, 33.99, 171.59),
+        [15] = vector4(3264.16, 5170.03, 19.62, 354.58),
+        [16] = vector4(3809.29, 4462.0, 4.3, 274.74),
+        [17] = vector4(1884.01, 3689.04, 33.29, 122.11),
+        [18] = vector4(1137.92, 3617.72, 33.75, 260.7),
+        [19] = vector4(-805.34, 5412.0, 33.84, 356.16)
     }
 }
 
@@ -69,7 +65,7 @@ Config.PZLocations = {
 
     TakeLocations = {
         [1] = {
-            coord = vector3(258.98, -377.9, 44.7),
+            coord = vector3(-132.86, 6225.99, 31.36),
             height = 17.6,
             width = 4.2,
             heading=69,
@@ -78,7 +74,7 @@ Config.PZLocations = {
             maxZ=45.55
         },
         [2] = {
-            coord = vector3(-50.06, -784.57, 44.16),
+            coord = vector3(17.58, 6279.94, 31.24),
             height = 17.6,
             width = 4.2,
             heading=62,
@@ -87,7 +83,7 @@ Config.PZLocations = {
             maxZ=45.01
         },
         [3] = {
-            coord = vector3(238.93, -858.91, 29.67),
+            coord = vector3(96.9, 6454.4, 31.3),
             height = 17.6,
             width = 4.2,
             heading=71,
@@ -96,7 +92,7 @@ Config.PZLocations = {
             maxZ=30.52
         },
         [4] = {
-            coord = vector3(823.4, -1882.96, 29.29),
+            coord = vector3(147.8, 6639.63, 31.59),
             height = 17.6,
             width = 4.2,
             heading=167,
@@ -105,7 +101,7 @@ Config.PZLocations = {
             maxZ=30.14
         },
         [5] = {
-            coord = vector3(354.05, -1971.57, 24.43),
+            coord = vector3(-51.12, 6526.84, 31.49),
             height = 17.6,
             width = 4.2,
             heading=236,
@@ -114,7 +110,7 @@ Config.PZLocations = {
             maxZ=25.28
         },
         [6] = {
-            coord = vector3(-225.61, -2043.63, 27.62),
+            coord = vector3(-15.98, 6507.98, 31.3),
             height = 17.6,
             width = 4.2,
             heading=143,
@@ -123,7 +119,7 @@ Config.PZLocations = {
             maxZ=28.47
         },
         [7] = {
-              coord = vector3(-1048.72, -2714.2, 13.76),
+            coord = vector3(-52.08, 6473.26, 31.26),
             height = 17.6,
             width = 4.2,
             heading=240,
@@ -132,7 +128,7 @@ Config.PZLocations = {
             maxZ=14.61
         },
         [8] = {
-            coord = vector3(-776.15, -1280.37, 5.0),
+            coord = vector3(-140.42, 6386.69, 31.4),
             height = 17.6,
             width = 4.2,
             heading=261,
@@ -141,7 +137,7 @@ Config.PZLocations = {
             maxZ=5.85
         },
         [9] = {
-            coord = vector3(-1180.3, -1304.22, 5.15),
+            coord = vector3(-162.38, 6382.71, 31.33),
             height = 17.6,
             width = 4.2,
             heading=205,
@@ -150,7 +146,7 @@ Config.PZLocations = {
             maxZ=6.0
         },
         [10] = {
-            coord = vector3(-1326.52, -833.32, 16.85),
+            coord = vector3(-92.91, 6337.79, 31.49),
             height = 17.6,
             width = 4.2,
             heading=225,
@@ -159,7 +155,7 @@ Config.PZLocations = {
             maxZ=17.7
         },
         [11] = {
-            coord = vector3(-1610.24, -1015.33, 13.07),
+            coord = vector3(-137.01, 6308.81, 31.49),
             height = 17.6,
             width = 4.2,
             heading=227,
@@ -168,7 +164,7 @@ Config.PZLocations = {
             maxZ=13.92
         },
         [12] = {
-            coord = vector3(-1396.85, -583.72, 30.08),
+            coord = vector3(-196.33, 6345.97, 31.3),
             height = 17.6,
             width = 4.2,
             heading=299,
@@ -177,7 +173,7 @@ Config.PZLocations = {
             maxZ=30.93
         },
         [13] = {
-            coord = vector3(-513.06, -263.2, 35.43),
+            coord = vector3(-230.78, 6312.13, 31.29),
             height = 17.6,
             width = 4.2,
             heading=293,
@@ -186,7 +182,7 @@ Config.PZLocations = {
             maxZ=36.28
         },
         [14] = {
-            coord = vector3(-756.46, -35.84, 37.69),
+            coord = vector3(-293.77, 6248.45, 31.3),
             height = 17.6,
             width = 4.2,
             heading=297,
@@ -195,7 +191,7 @@ Config.PZLocations = {
             maxZ=38.54
         },
         [15] = {
-            coord = vector3(-1285.33, 293.67, 64.83),
+            coord = vector3(-287.83, 6238.4, 31.32),
             height = 17.6,
             width = 4.2,
             heading=241,
@@ -204,7 +200,7 @@ Config.PZLocations = {
             maxZ=65.68
         },
         [16] = {
-            coord = vector3(-806.68, 825.2, 202.81),
+            coord = vector3(-345.6, 6178.15, 31.19),
             height = 21.2,
             width = 4.2,
             heading=276,
@@ -216,7 +212,7 @@ Config.PZLocations = {
 
     DropLocations = {
         [1] = {
-            coord = vector3(-1073.21, -265.35, 37.35),
+            coord = vector3(-559.63, 5374.25, 70.2),
             height = 21.2,
             width = 4.2,
             heading=296,
@@ -225,7 +221,7 @@ Config.PZLocations = {
             maxZ=39.2
         },
         [2] = {
-            coord = vector3(-1411.45, -590.98, 29.99),
+            coord = vector3(-582.76, 5238.24, 70.47),
             height = 21.2,
             width = 4.2,
             heading=299,
@@ -234,7 +230,7 @@ Config.PZLocations = {
             maxZ=31.84
         },
         [3] = {
-            coord = vector3(-678.68, -845.54, 23.53),
+            coord = vector3(-594.31, 5287.93, 70.21),
             height = 21.2,
             width = 4.2,
             heading=269,
@@ -243,7 +239,7 @@ Config.PZLocations = {
             maxZ=25.38
         },
         [4] = {
-            coord = vector3(-159.11, -1565.46, 34.69),
+            coord = vector3(725.2, 4180.86, 40.71),
             height = 21.2,
             width = 4.2,
             heading=321,
@@ -252,7 +248,7 @@ Config.PZLocations = {
             maxZ=36.54
         },
         [5] = {
-            coord = vector3(442.12, -1685.31, 28.85),
+            coord = vector3(1344.66, 4333.18, 38.06),
             height = 21.2,
             width = 4.2,
             heading=321,
@@ -261,7 +257,7 @@ Config.PZLocations = {
             maxZ=30.7
         },
         [6] = {
-            coord = vector3(1120.51, -958.97, 46.83),
+            coord = vector3(1360.38, 4371.59, 44.26),
             height = 21.2,
             width = 4.2,
             heading=286,
@@ -270,7 +266,7 @@ Config.PZLocations = {
             maxZ=48.68
         },
         [7] = {
-            coord = vector3(1240.79, -377.77, 68.61),
+            coord = vector3(1696.47, 4724.2, 42.28),
             height = 21.2,
             width = 4.2,
             heading=249,
@@ -279,7 +275,7 @@ Config.PZLocations = {
             maxZ=70.46
         },
         [8] = {
-            coord = vector3(923.66, -2226.07, 29.98),
+            coord = vector3(1681.92, 4763.39, 41.98),
             height = 21.2,
             width = 4.2,
             heading=354,
@@ -288,7 +284,7 @@ Config.PZLocations = {
             maxZ=31.83
         },
         [9] = {
-            coord = vector3(1920.15, 3701.6, 32.26),
+            coord = vector3(2026.38, 4969.91, 41.21),
             height = 21.2,
             width = 4.2,
             heading=299,
@@ -297,7 +293,7 @@ Config.PZLocations = {
             maxZ=34.11
         },
         [10] = {
-            coord = vector3(1661.91, 4875.87, 41.66),
+            coord = vector3(1916.78, 4941.32, 48.39),
             height = 21.2,
             width = 4.2,
             heading=8,
@@ -306,7 +302,7 @@ Config.PZLocations = {
             maxZ=43.51
         },
         [11] = {
-            coord = vector3(-9.46, 6529.92, 30.95),
+            coord = vector3(2103.8, 4713.72, 41.08),
             height = 21.2,
             width = 4.2,
             heading=314,
@@ -315,7 +311,7 @@ Config.PZLocations = {
             maxZ=32.8
         },
         [12] = {
-            coord = vector3(-3233.12, 1010.33, 11.72),
+            coord = vector3(2354.74, 4841.77, 40.96),
             height = 21.2,
             width = 4.2,
             heading=357,
@@ -324,7 +320,7 @@ Config.PZLocations = {
             maxZ=13.57
         },
         [13] = {
-            coord = vector3(-1604.11, -401.71, 41.95),
+            coord = vector3(2440.67, 4939.3, 45.1),
             height = 21.2,
             width = 4.2,
             heading=322,
@@ -333,7 +329,7 @@ Config.PZLocations = {
             maxZ=43.8
         },
         [14] = {
-            coord = vector3(-586.48, -255.96, 36.53),
+            coord = vector3(2553.81, 4691.29, 33.76),
             height = 21.2,
             width = 4.2,
             heading=31,
@@ -342,7 +338,7 @@ Config.PZLocations = {
             maxZ=37.48
         },
         [15] = {
-            coord = vector3(23.51, -60.47, 63.2),
+            coord = vector3(3258.77, 5161.3, 19.7),
             height = 21.2,
             width = 4.2,
             heading=156,
@@ -351,7 +347,7 @@ Config.PZLocations = {
             maxZ=65.75
         },
         [16] = {
-            coord = vector3(550.26, 172.54, 99.71),
+            coord = vector3(3776.93, 4464.6, 6.2),
             height = 21.2,
             width = 4.2,
             heading=161,
@@ -360,7 +356,7 @@ Config.PZLocations = {
             maxZ=100.91
         },
         [17] = {
-            coord = vector3(-1048.62, -2540.53, 13.3),
+            coord = vector3(1900.69, 3695.3, 32.96),
             height = 21.2,
             width = 4.2,
             heading=151,
@@ -369,7 +365,7 @@ Config.PZLocations = {
             maxZ=14.9
         },
         [18] = {
-            coord = vector3(-10.06, -544.39, 38.28),
+            coord = vector3(1137.0, 3628.47, 33.87),
             height = 21.2,
             width = 4.2,
             heading=91,
@@ -378,49 +374,13 @@ Config.PZLocations = {
             maxZ=39.88
         },
         [19] = {
-            coord = vector3(-7.91, -258.19, 46.49),
+            coord = vector3(-809.45, 5419.63, 34.0),
             height = 21.2,
             width = 4.2,
             heading=71,
             --debugPoly=true,
             minZ=45.29,
             maxZ=47.69
-        },
-        [20] = {
-            coord = vector3(-743.03, 818.9, 213.16),
-            height = 21.2,
-            width = 4.2,
-            heading=38,
-            --debugPoly=true,
-            minZ=211.96,
-            maxZ=214.36
-        },
-        [21] = {
-            coord = vector3(218.25, 677.55, 188.87),
-            height = 21.2,
-            width = 4.2,
-            heading=163,
-            --debugPoly=true,
-            minZ=187.67,
-            maxZ=190.07
-        },
-        [22] = {
-            coord = vector3(264.47, 1138.41, 221.36),
-            height = 21.2,
-            width = 4.2,
-            heading=203,
-            --debugPoly=true,
-            minZ=220.16,
-            maxZ=222.56
-        },
-        [23] = {
-            coord = vector3(220.47, -1010.7, 28.82),
-            height = 21.2,
-            width = 4.2,
-            heading=158,
-            --debugPoly=true,
-            minZ=28.02,
-            maxZ=30.42
         },
 
     }
@@ -574,15 +534,7 @@ Config.NpcSkins = {
 }
 
 Config.CabSpawns = {
-    vector4(899.0837, -180.4414, 73.4115, 238.7553),
-    vector4(897.1274, -183.3882, 73.3531, 238.4949),
-    vector4(903.4929, -191.7166, 73.3883, 60.5255),
-    vector4(904.9221, -188.7516, 73.4204, 60.5921),
-    vector4(906.9083, -186.0502, 73.6249, 58.2671),
-    vector4(908.7374, -183.2168, 73.7542, 57.1579),
-    vector4(911.3865, -163.0307, 73.9763, 194.4093),
-    vector4(913.5932, -159.4309, 74.3888, 193.9838),
-    vector4(916.0979, -170.6549, 74.0125, 100.604),
-    vector4(918.3217, -167.1944, 74.2036, 101.5165),
-    vector4(920.6716, -163.4763, 74.4108, 96.2972)
+    vector4(-313.9, 6117.89, 31.86, 208.36),
+    vector4(-309.46, 6121.92, 31.5, 223.92),
+    vector4(-304.6, 6126.64, 31.5, 209.33)
 }
