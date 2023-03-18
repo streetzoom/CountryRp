@@ -522,8 +522,8 @@ Config.Stores = {
 
 -- set isGang to true if the requiredJob is a gang
 Config.ClothingRooms = {
-    [1] = {requiredJob = 'police', isGang = false, coords = vector3(-439.43, 5989.91, 31.72), width = 2, length = 2, cameraLocation = vector4(-439.26, 5989.84, 31.72, 305.64)}, -- Paleto
-    [2] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-256.37, 6327.2, 32.43), width = 2, length = 2, cameraLocation = vector4(-256.4, 6327.11, 32.43, 41.83)}, -- Paleto
+    [1] = {requiredJob = 'police', isGang = false, coords = vector3(-439.43, 5989.91, 31.72), width = 2, length = 2, cameraLocation = vector4(-461.52, 5998.26, 31.31, 312.09)}, -- Paleto
+    [2] = {requiredJob = 'ambulance', isGang = false, coords = vector3(-256.37, 6327.2, 32.43), width = 2, length = 2, cameraLocation = vector4(-270.78, 6333.57, 32.43, 305.37)}, -- Paleto
     [3] = {requiredJob = "realestate", isGang = false, coords = vector3(-131.45, -633.74, 168.82), width = 2, length = 2, cameraLocation = vector4(-131.45, -633.74, 168.82,  2.18)}
 }
 
