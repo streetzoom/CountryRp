@@ -1004,7 +1004,7 @@ Config.Locations = {
     -- Weedshop Locations
     ["weedshop"] = {
         ["label"] = "Smoke On The Water",
-        ["coords"] = vector4(-1168.26, -1573.2, 4.66, 105.24),
+        ["coords"] = vector4(2223.29, 5604.55, 54.73, 101.95),
         ["ped"] = 'a_m_y_hippy_01',
         ["scenario"] = "WORLD_HUMAN_AA_SMOKE",
         ["radius"] = 1.5,
@@ -1015,13 +1015,13 @@ Config.Locations = {
         ["blipsprite"] = 140,
         ["blipscale"] = 0.8,
         ["blipcolor"] = 0,
-        ["delivery"] = vector4(-1162.13, -1568.57, 4.39, 328.52)
+        ["delivery"] = vector4(2232.66, 5611.45, 54.91, 199.47)
     },
 
     -- Sea Word Locations
     ["seaword"] = {
         ["label"] = "Sea Word",
-        ["coords"] = vector4(-1687.03, -1072.18, 13.15, 52.93),
+        ["coords"] = vector4(3803.71, 4442.38, 4.07, 337.43),
         ["ped"] = 'a_m_y_beach_01',
         ["scenario"] = "WORLD_HUMAN_STAND_IMPATIENT",
         ["radius"] = 1.5,
@@ -1032,13 +1032,13 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipscale"] = 0.8,
         ["blipcolor"] = 0,
-        ["delivery"] = vector4(-1674.18, -1073.7, 13.15, 333.56)
+        ["delivery"] = vector4(3800.63, 4439.68, 4.26, 180.57)
     },
 
     -- Leisure Shop Locations
     ["leisureshop"] = {
         ["label"] = "Leisure Shop",
-        ["coords"] = vector4(-1505.91, 1511.95, 115.29, 257.13),
+        ["coords"] = vector4(1332.51, 4325.32, 38.09, 352.83),
         ["ped"] = 'a_m_y_beach_01',
         ["scenario"] = "WORLD_HUMAN_STAND_MOBILE_CLUBHOUSE",
         ["radius"] = 1.5,
@@ -1049,6 +1049,6 @@ Config.Locations = {
         ["blipsprite"] = 52,
         ["blipscale"] = 0.8,
         ["blipcolor"] = 0,
-        ["delivery"] = vector4(-1507.64, 1505.52, 115.29, 262.2)
+        ["delivery"] = vector4(1335.17, 4306.85, 38.09, 263.89)
     },
 }
