@@ -437,7 +437,7 @@ Config.Locations = {
     -- 24/7 Locations
     ["247supermarket"] = {
         ["label"] = "24/7 Supermarket",
-        ["coords"] = vector4(1728.07, 6415.63, 35.04, 242.95), -- Paleto higway
+        ["coords"] = vector4(1728.07, 6415.63, 35.04, 242.95), -- Paleto highway
         ["ped"] = 'mp_m_shopkeep_01',
         ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
         ["radius"] = 1.5,
@@ -497,6 +497,22 @@ Config.Locations = {
         ["blipscale"] = 0.6,
         ["blipcolor"] = 24,
         ["delivery"] = vector4(2662.19, 3264.95, 55.24, 168.55)
+    },
+
+    ["247supermarket5"] = {
+        ["label"] = "24/7 Supermarket",
+        ["coords"] = vector4(160.74, 6641.98, 31.61, 223.35), -- Paleto gas station
+        ["ped"] = 'mp_m_shopkeep_01',
+        ["scenario"] = "WORLD_HUMAN_STAND_MOBILE",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-shopping-basket",
+        ["targetLabel"] = "Open Shop",
+        ["products"] = Config.Products["normal"],
+        ["showblip"] = true,
+        ["blipsprite"] = 52,
+        ["blipscale"] = 0.6,
+        ["blipcolor"] = 24,
+        ["delivery"] = vector4(175.83, 6642.76, 31.56, 95.08)
     },
 
     -- LTD Gasoline Locations  
