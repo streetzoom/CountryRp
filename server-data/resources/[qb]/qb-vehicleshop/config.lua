@@ -27,10 +27,10 @@ Config.Shops = {
             ['size'] = 2.75 -- size of the vehicles zones
         },
         ['Job'] = 'none', -- Name of job or none
-        ['ShopLabel'] = 'Premium Deluxe Motorsport', -- Blip name
+        ['ShopLabel'] = 'Grapeseed Vehicle Shop', -- Blip name
         ['showBlip'] = true, -- true or false
-        ['blipSprite'] = 326, -- Blip sprite
-        ['blipColor'] = 3, -- Blip color
+        ['blipSprite'] = 810, -- Blip sprite
+        ['blipColor'] = 53, -- Blip color
         ['TestDriveTimeLimit'] = 0.5, -- Time in minutes until the vehicle gets deleted
         ['Location'] = vector3(2423.63, 4543.23, 38.09), -- Blip Location default:vector3(-45.67, -1098.34, 26.42) custom:vector3(2423.63, 4543.23, 38.09)
         ['ReturnLocation'] = vector3(2423.63, 4543.23, 38.09), -- Location to return vehicle, only enables if the vehicleshop has a job owned default:vector3(-44.74, -1082.58, 26.68) custom:vector3(2423.63, 4543.23, 38.09)
@@ -98,10 +98,10 @@ Config.Shops = {
             ['size'] = 2.75 -- size of the vehicles zones
         },
         ['Job'] = 'cardealer', -- Name of job or none
-        ['ShopLabel'] = 'Luxury Vehicle Shop',
+        ['ShopLabel'] = 'Paleto Bay Vehicle Shop',
         ['showBlip'] = true, -- true or false
-        ['blipSprite'] = 326, -- Blip sprite
-        ['blipColor'] = 3, -- Blip color
+        ['blipSprite'] = 810, -- Blip sprite
+        ['blipColor'] = 53, -- Blip color
         ['TestDriveTimeLimit'] = 0.5,
         ['Location'] = vector3(-1255.6, -361.16, 36.91),
         ['ReturnLocation'] = vector3(-1231.46, -349.86, 37.33),

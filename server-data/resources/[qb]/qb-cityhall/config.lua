@@ -34,13 +34,13 @@ Config.Cityhalls = {
 
 Config.DrivingSchools = {
     { -- Driving School 1
-        coords = vec3(240.3, -1379.89, 33.74),
+        coords = vector3(-358.82, 6061.99, 31.5),
         showBlip = true,
         blipData = {
-            sprite = 225,
+            sprite = 498,
             display = 4,
             scale = 0.65,
-            colour = 3,
+            colour = 24,
             title = "Driving School"
         },
         instructors = {
@@ -67,8 +67,8 @@ Config.Peds = {
     -- Driving School Ped
     {
         model = 'a_m_m_eastsa_02',
-        coords = vec4(240.91, -1379.2, 32.74, 138.96),
-        scenario = 'WORLD_HUMAN_STAND_MOBILE',
+        coords = vector4(-358.82, 6061.99, 30.5, 42.78),
+        scenario = 'stand_armscrossed',
         drivingschool = true,
         zoneOptions = { -- Used for when UseTarget is false
             length = 3.0,
