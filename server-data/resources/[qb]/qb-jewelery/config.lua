@@ -4,15 +4,15 @@ Config = Config or {}
 -- These have to be a string thanks to how Convars are returned.
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
-Config.Timeout = 30 * (60 * 2000)
-Config.RequiredCops = 2
-Config.JewelleryLocation = {
-    ["coords"] = vector3(-630.5, -237.13, 38.08),
+Config.Timeout = 30 * (60 * 2000)   -- cooldown between robberies in minutes
+Config.RequiredCops = 0             -- Amount of police needed online to start the robbery
+Config.JewelleryLocation = {        -- location to start robbery
+    ["coords"] = vector3(1652.53, 4882.75, 42.16),
 }
 
-Config.WhitelistedWeapons = {
-    [`weapon_assaultrifle`] = {
-        ["timeOut"] = 10000
+Config.WhitelistedWeapons = {       -- weapons that can break the glass
+    [`weapon_assaultrifle`] = {     -- weapon hash
+        ["timeOut"] = 10000         -- the amount of time the progress bar takes
     },
     [`weapon_carbinerifle`] = {
         ["timeOut"] = 10000
@@ -49,12 +49,12 @@ Config.WhitelistedWeapons = {
     },
 }
 
-Config.VitrineRewards = {
+Config.VitrineRewards = {       -- Items received by smashing cases
     [1] = {
-        ["item"] = "rolex",
-        ["amount"] = {
-            ["min"] = 1,
-            ["max"] = 4
+        ["item"] = "rolex",     -- item name
+        ["amount"] = {          -- randomized between min and max
+            ["min"] = 1,        -- minimum amount received
+            ["max"] = 4         -- maximum amount received
         },
     },
     [2] = {
@@ -73,107 +73,52 @@ Config.VitrineRewards = {
     },
 }
 
-Config.Locations = {
+Config.Locations = {                                    -- location of the smashable cases
     [1] = {
-        ["coords"] = vector3(-626.83, -235.35, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
+        ["coords"] = vector3(1652.24, 4878.85, 42.16),  -- location
+        ["isOpened"] = false,                           -- dynamically changed, don't edit
+        ["isBusy"] = false,                             -- dynamically changed, don't edit
     },
     [2] = {
-        ["coords"] = vector3(-625.81, -234.7, 38.05),
+        ["coords"] = vector3(1648.68, 4885.75, 42.16),
         ["isOpened"] = false,
         ["isBusy"] = false,
     },
     [3] = {
-        ["coords"] = vector3(-626.95, -233.14, 38.05),
+        ["coords"] = vector3(1650.17, 4885.96, 42.16),
         ["isOpened"] = false,
         ["isBusy"] = false,
     },
     [4] = {
-        ["coords"] = vector3(-628.0, -233.86, 38.05),
+        ["coords"] = vector3(1646.42, 4884.0, 42.16),
         ["isOpened"] = false,
         ["isBusy"] = false,
     },
     [5] = {
-        ["coords"] = vector3(-625.7, -237.8, 38.05),
+        ["coords"] = vector3(1648.82, 4883.17, 42.16),
         ["isOpened"] = false,
         ["isBusy"] = false,
     },
     [6] = {
-        ["coords"] = vector3(-626.7, -238.58, 38.05),
+        ["coords"] = vector3(1647.47, 4883.03, 42.16),
       ["isOpened"] = false,
         ["isBusy"] = false,
     },
     [7] = {
-        ["coords"] = vector3(-624.55, -231.06, 38.05),
+        ["coords"] = vector3(1649.08, 4881.22, 42.16),
         ["isOpened"] = false,
         ["isBusy"] = false,
     },
     [8] = {
-        ["coords"] = vector3(-623.13, -232.94, 38.05),
+        ["coords"] = vector3(1647.72, 4881.03, 42.16),
         ["isOpened"] = false,
         ["isBusy"] = false,
     },
     [9] = {
-        ["coords"] = vector3(-620.29, -234.44, 38.05),
+        ["coords"] = vector3(1647.0, 4879.81, 42.16),
         ["isOpened"] = false,
         ["isBusy"] = false,
     },
-    [10] = {
-        ["coords"] = vector3(-619.15, -233.66, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [11] = {
-        ["coords"] = vector3(-620.19, -233.44, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [12] = {
-        ["coords"] = vector3(-617.63, -230.58, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [13] = {
-        ["coords"] = vector3(-618.33, -229.55, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [14] = {
-        ["coords"] = vector3(-619.7, -230.33, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [15] = {
-        ["coords"] = vector3(-620.95, -228.6, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [16] = {
-        ["coords"] = vector3(-619.79, -227.6, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [17] = {
-        ["coords"] = vector3(-620.42, -226.6, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [18] = {
-        ["coords"] = vector3(-623.94, -227.18, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [19] = {
-        ["coords"] = vector3(-624.91, -227.87, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    },
-    [20] = {
-        ["coords"] = vector3(-623.94, -228.05, 38.05),
-        ["isOpened"] = false,
-        ["isBusy"] = false,
-    }
 }
 
 Config.MaleNoHandshoes = {
