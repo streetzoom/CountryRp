@@ -54,7 +54,7 @@ Config.Garages = {
         ["type"] = "public",                --public, job, gang, depot
         ["vehicle"] = "car"                 --car, air, sea, rig
     },
-    ["haanparking"] = { -- Paleto
+    --[[["haanparking"] = { -- Paleto
         ["label"] = "Bell Farms Parking",
         ["takeVehicle"] = vector3(80.79, 6423.72, 31.67),
         ["spawnPoint"] = vector4(75.33, 6401.41, 30.65, 135.77),
@@ -65,13 +65,13 @@ Config.Garages = {
         ["blipColor"] = 3,
         ["type"] = "public",                --public, job, gang, depot
         ["vehicle"] = "car"                 --car, air, sea, rig
-    },
+    },]]
  
     ["pillboxgarage"] = {
         ["label"] = "Pillbox Garage Parking",
-        ["takeVehicle"] = vector3(215.9499, -809.698, 30.731),
-        ["spawnPoint"] = vector4(234.1942, -787.066, 30.193, 159.6),
-        ["putVehicle"] = vector3(218.0894, -781.370, 30.389),
+        ["takeVehicle"] = vector3(80.79, 6423.72, 31.67), -- default: vector3(215.9499, -809.698, 30.731), take in 'Bell Farms Parking' - haanparking
+        ["spawnPoint"] = vector4(75.33, 6401.41, 30.65, 135.77), -- default: vector4(234.1942, -787.066, 30.193, 159.6),
+        ["putVehicle"] = vector3(78.34, 6418.74, 31.28), -- default: vector3(218.0894, -781.370, 30.389),
         ["showBlip"] = true,
         ["blipName"] = "Public Parking",
         ["blipNumber"] = 357,
