@@ -314,48 +314,39 @@ Config.DefaultPrice = 20 -- Default price for the carwash
 Config.DirtLevel = 0.1 -- Threshold for the dirt level to be counted as dirty
 Config.CarWash = { -- carwash
     [1] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "Paleto Hands Free Carwash",
         ["poly"] = {
-            coords = vector3(174.81, -1736.77, 28.87),
+            coords = vector3(102.98, 6623.31, 31.83), -- Paleto
             length = 7.0,
             width = 8.8,
             heading = 359
         }
     },
     [2] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "Grand Senora Hands Free Carwash",
         ["poly"] = {
-            coords = vector3(25.2, -1391.98, 28.91),
+            coords = vector3(1182.61, 2637.33, 37.8), -- Grand Senora
             length = 6.6,
             width = 8.2,
             heading = 0
         }
     },
     [3] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "Paleto Hands Free Carwash",
         ["poly"] = {
-            coords = vector3(-74.27, 6427.72, 31.02),
+            coords = vector3(-74.27, 6427.72, 31.02), -- Paleto
             length = 9.4,
             width = 8,
             heading = 315
         }
     },
     [4] = {
-        ["label"] = "Hands Free Carwash",
+        ["label"] = "Sandy Hands Free Carwash",
         ["poly"] = {
-            coords = vector3(1362.69, 3591.81, 34.5),
+            coords = vector3(1362.69, 3591.81, 34.5), -- Sandy
             length = 6.4,
             width = 8,
             heading = 21
         }
     },
-    [5] = {
-        ["label"] = "Hands Free Carwash",
-        ["poly"] = {
-            coords = vector3(-699.84, -932.68, 18.59),
-            length = 11.8,
-            width = 5.2,
-            heading = 0
-        }
-    }
 }

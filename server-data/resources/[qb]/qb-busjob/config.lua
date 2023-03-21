@@ -4,7 +4,7 @@ Config.AllowedVehicles = {
     [1] = {model = "bus", label = Lang:t('info.bus')},
 }
 
-Config.Location = vector4(-240.81, 6255.19, 31.48, 227.15)
+Config.Location = vector4(-240.81, 6255.19, 31.48, 227.15) -- Paleto Bus Depot
 
 Config.NPCLocations = {
     Locations = {
