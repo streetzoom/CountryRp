@@ -17,62 +17,50 @@ Config.LicenseRank = 2
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 Config.Locations = {
     ["duty"] = {
-        [1] = vector3(440.085, -974.924, 30.689),
-        [2] = vector3(-449.811, 6012.909, 31.815), -- Paleto Country Sheriff
-        [3] = vector3(1852.81, 3687.54, 34.27), -- Sandy Country Sheriff
+        [1] = vector3(-449.811, 6012.909, 31.815), -- Paleto Country Sheriff
+        [2] = vector3(1852.81, 3687.54, 34.27), -- Sandy Country Sheriff
     },
     ["vehicle"] = {
-        [1] = vector4(448.159, -1017.41, 28.562, 90.654),
-        [2] = vector4(-452.0, 5998.37, 30.95, 86.78), -- Paleto Country Sheriff 
-        [3] = vector4(-455.39, 6002.02, 31.34, 87.93), -- Paleto Country Sheriff
-        [4] = vector4(-482.71, 6024.38, 30.95, 224.41), -- Paleto Country Sheriff
-        [5] = vector4(1850.38, 3674.09, 33.37, 209.11), -- Sandy Country Sheriff
-        [6] = vector4(1853.86, 3676.2, 33.36, 209.72), -- Sandy Country Sheriff
-        [7] = vector4(1868.05, 3683.38, 33.32, 210.74), -- Sandy Country Sheriff
-        [8] = vector4(1863.36, 3681.01, 33.31, 210.74), -- Sandy Country Sheriff
-        [9] = vector4(-479.14, 6028.07, 30.95, 223.01), -- Paleto Country Sheriff
+        [1] = vector4(-452.0, 5998.37, 30.95, 86.78), -- Paleto Country Sheriff 
+        [2] = vector4(-455.39, 6002.02, 31.34, 87.93), -- Paleto Country Sheriff
+        [3] = vector4(-482.71, 6024.38, 30.95, 224.41), -- Paleto Country Sheriff
+        [4] = vector4(1850.38, 3674.09, 33.37, 209.11), -- Sandy Country Sheriff
+        [5] = vector4(1853.86, 3676.2, 33.36, 209.72), -- Sandy Country Sheriff
+        [6] = vector4(1868.05, 3683.38, 33.32, 210.74), -- Sandy Country Sheriff
+        [7] = vector4(1863.36, 3681.01, 33.31, 210.74), -- Sandy Country Sheriff
+        [8] = vector4(-479.14, 6028.07, 30.95, 223.01), -- Paleto Country Sheriff
     },
     ["stash"] = {
-        [1] = vector3(453.075, -980.124, 30.889),
-        [2] = vector3(-439.8, 5992.05, 31.72), -- Paleto Country Sheriff
+        [1] = vector3(-442.04, 5987.35, 31.72), -- Paleto Country Sheriff
     },
     ["impound"] = {
-        [1] = vector3(436.68, -1007.42, 27.32),
-        [2] = vector3(-452.81, 6050.29, 30.91), -- Paleto Country Sheriff
-        [3] = vector3(1872.85, 3686.85, 33.18), -- Sandy Country Sheriff 
+        [1] = vector3(-452.81, 6050.29, 30.91), -- Paleto Country Sheriff
+        [2] = vector3(1872.85, 3686.85, 33.18), -- Sandy Country Sheriff 
     },
     ["helicopter"] = {
-        [1] = vector4(449.168, -981.325, 43.691, 87.234),
-        [2] = vector4(-475.43, 5988.353, 31.716, 31.34), -- Paleto Country Sheriff
+        [1] = vector4(-475.43, 5988.353, 31.716, 31.34), -- Paleto Country Sheriff
     },
     ["armory"] = {
-        [1] = vector3(462.23, -981.12, 30.68),
-        [2] = vector3(-437.92, 5989.11, 31.72), -- Paleto Country Sheriff
+        [1] = vector3(-437.12, 5988.96, 31.72), -- Paleto Country Sheriff
     },
     ["trash"] = {
-        [1] = vector3(439.0907, -976.746, 30.776),
-        [2] = vector3(-435.97, 6003.8, 31.75),  -- Paleto Country Sheriff 
-        [3] = vector3(-451.13, 6011.82, 31.72), -- Paleto Country Sheriff 
-        [4] = vector3(1852.94, 3691.86, 34.27), -- Sandy Country Sheriff
+        [1] = vector3(-435.97, 6003.8, 31.75),  -- Paleto Country Sheriff 
+        [2] = vector3(-451.13, 6011.82, 31.72), -- Paleto Country Sheriff 
+        [3] = vector3(1852.94, 3691.86, 34.27), -- Sandy Country Sheriff
     },
     ["fingerprint"] = {
-        [1] = vector3(460.9667, -989.180, 24.92),
-        [2] = vector3(-432.76, 5997.75, 31.72), -- Paleto Country Sheriff
+        [1] = vector3(-432.76, 5997.75, 31.72), -- Paleto Country Sheriff
     },
     ["evidence"] = {
-        [1] = vector3(442.1722, -996.067, 30.689),
-        [2] = vector3(451.7031, -973.232, 30.689),
-        [3] = vector3(455.1456, -985.462, 30.689),
-        [4] = vector3(-433.34, 5994.77, 31.72), -- Paleto Country Sheriff
-        [5] = vector3(-440.06, 5996.58, 31.72), -- Paleto Country Sheriff
-        [6] = vector3(-446.2, 6009.07, 31.72),  -- Paleto Country Sheriff
-        [7] = vector3(1848.95, 3688.01, 34.27), -- Sandy Country Sheriff
+        [1] = vector3(-433.34, 5994.77, 31.72), -- Paleto Country Sheriff
+        [2] = vector3(-440.06, 5996.58, 31.72), -- Paleto Country Sheriff
+        [3] = vector3(-446.2, 6009.07, 31.72),  -- Paleto Country Sheriff
+        [4] = vector3(1848.95, 3688.01, 34.27), -- Sandy Country Sheriff
     },
     ["stations"] = {
-        [1] = {label = "Police Station", coords = vector4(428.23, -984.28, 29.76, 3.5)},
-        [2] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
-        [3] = {label = "Paleto Country Sheriff", coords = vector4(-437.52, 6001.23, 31.72, 227.82)},
-        [4] = {label = "Sandy Country Sheriff", coords = vector4(1857.91, 3689.32, 34.27, 295.12)},
+        [1] = {label = "Prison", coords = vector4(1845.903, 2585.873, 45.672, 272.249)},
+        [2] = {label = "Paleto Country Sheriff", coords = vector4(-437.52, 6001.23, 31.72, 227.82)},
+        [3] = {label = "Sandy Country Sheriff", coords = vector4(1857.91, 3689.32, 34.27, 295.12)},
     },
 }
 
