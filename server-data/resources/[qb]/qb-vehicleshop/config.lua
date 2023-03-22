@@ -144,10 +144,10 @@ Config.Shops = {
         ['Type'] = 'free-use', -- no player interaction is required to purchase a vehicle
         ['Zone'] = {
             ['Shape'] = {--polygon that surrounds the shop
-                vector2(2049.43, 4000.4),
+                vector2(2057.74, 3999.73),
                 vector2(2020.02, 4000.31),
                 vector2(2020.37, 4018.33),
-                vector2(2049.4, 4018.24)
+                vector2(2056.98, 4018.63)
             },
             ['minZ'] = 0.0, -- min height of the shop zone
             ['maxZ'] = 50.0, -- max height of the shop zone
@@ -170,7 +170,7 @@ Config.Shops = {
                 chosenVehicle = 'seashark' -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
-                coords = vector4(2034.53, 4008.72, 29.62, 359.83),
+                coords = vector4(2034.53, 4008.72, 29.62, 359.83),  
                 defaultVehicle = 'dinghy',
                 chosenVehicle = 'dinghy'
             },
@@ -180,7 +180,7 @@ Config.Shops = {
                 chosenVehicle = 'speeder'
             },
             [4] = {
-                coords = vector4(2054.43, 4008.73, 29.67, 359.75),
+                coords = vector4(2052.43, 4008.73, 29.67, 359.75),
                 defaultVehicle = 'marquis',
                 chosenVehicle = 'marquis'
             },
