@@ -1,22 +1,35 @@
 Config = {}
 
-Config.PawnLocation = {
+Config.PawnLocation = { 
     [1] = {
-            coords = vector3(412.34, 314.81, 103.13),
+            coords = vector3(387.44, 3584.71, 33.29),    -- Near Sandy
             length = 1.5,
             width = 1.8,
             heading = 207.0,
-            debugPoly = true,
-            minZ = 100.97,
-            maxZ = 105.42,
+            debugPoly = false,
+            minZ = nil,                                  -- MinZ needs to be below the Z-axis(~3) of your coords!!!
+            maxZ = nil,                                  -- MaxZ should be above Z-axis(~3) of your coords!!!
             distance = 3.0
         },
+
+
+    -- TODO: Add more locations
+    --[[2] = {
+            coords = vector3(-1123.89, 4893.41, 218.47), -- Nudist village
+            length = 1.5,
+            width = 1.8,
+            heading = 207.0,
+            debugPoly = false,
+            minZ = nil,  
+            maxZ = nil, 
+            distance = 3.0
+        },]]
     }
 
-Config.BankMoney = false -- Set to true if you want the money to go into the players bank
-Config.UseTimes = false -- Set to false if you want the pawnshop open 24/7
-Config.TimeOpen = 7 -- Opening Time
-Config.TimeClosed = 17 -- Closing Time
+Config.BankMoney = false        -- Set to true if you want the money to go into the players bank
+Config.UseTimes = false         -- Set to false if you want the pawnshop open 24/7
+Config.TimeOpen = 7             -- Opening Time
+Config.TimeClosed = 17          -- Closing Time
 Config.SendMeltingEmail = true
 
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
