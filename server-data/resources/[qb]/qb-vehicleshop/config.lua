@@ -255,28 +255,28 @@ Config.Shops = {
         ['blipSprite'] = 477, -- Blip sprite
         ['blipColor'] = 2, -- Blip color
         ['TestDriveTimeLimit'] = 0.5, -- Time in minutes until the vehicle gets deleted
-        ['Location'] = vector3(900.47, -1155.74, 25.16), -- Blip Location
-        ['ReturnLocation'] = vector3(900.47, -1155.74, 25.16), -- Location to return vehicle, only enables if the vehicleshop has a job owned
-        ['VehicleSpawn'] = vector4(909.35, -1181.58, 25.55, 177.57), -- Spawn location when vehicle is bought
-        ['TestDriveSpawn'] = vector4(867.65, -1192.4, 25.37, 95.72), -- Spawn location for test drive
+        ['Location'] = vector3(-763.02, 5538.49, 33.48), -- Blip Location
+        ['ReturnLocation'] = vector3(-763.02, 5538.49, 33.48), -- Location to return vehicle, only enables if the vehicleshop has a job owned
+        ['VehicleSpawn'] = vector4(-766.26, 5548.14, 33.49, 86.66), -- Spawn location when vehicle is bought
+        ['TestDriveSpawn'] = vector4(-769.77, 5528.91, 33.48, 22.04), -- Spawn location for test drive
         ['ShowroomVehicles'] = {
             [1] = {
-                coords = vector4(890.84, -1170.92, 25.08, 269.58), -- where the vehicle will spawn on display
+                coords = vector4(-745.54, 5536.98, 33.49, 82.18), -- where the vehicle will spawn on display
                 defaultVehicle = 'hauler', -- Default display vehicle
                 chosenVehicle = 'hauler', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
-                coords = vector4(878.45, -1171.04, 25.05, 273.08),
+                coords = vector4(-751.72, 5533.02, 33.49, 82.18),
                 defaultVehicle = 'phantom',
                 chosenVehicle = 'phantom'
             },
             [3] = {
-                coords = vector4(880.44, -1163.59, 24.87, 273.08),
+                coords = vector4(-758.73, 5529.9, 33.48, 82.18),
                 defaultVehicle = 'mule',
                 chosenVehicle = 'mule'
             },
             [4] = {
-                coords = vector4(896.95, -1162.62, 24.98, 273.08),
+                coords = vector4(-757.15, 5547.17, 33.49, 161.44),
                 defaultVehicle = 'mixer',
                 chosenVehicle = 'mixer'
             },
