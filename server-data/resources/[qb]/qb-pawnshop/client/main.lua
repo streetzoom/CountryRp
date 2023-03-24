@@ -25,8 +25,8 @@ CreateThread(function()
             exports['qb-target']:AddBoxZone('PawnShop'..key, value.coords, value.length, value.width, {
                 name = 'PawnShop'..key,
                 heading = value.heading,
-                minZ = Config.PawnLocation[1].coords.z - 4,
-                maxZ = Config.PawnLocation[1].coords.z + 4,
+                minZ = value.coords.z - 4,  
+                maxZ = value.coords.z + 4,
                 debugPoly = value.debugPoly,
             }, {
                 options = {
@@ -46,8 +46,8 @@ CreateThread(function()
             zone[#zone+1] = BoxZone:Create(value.coords, value.length, value.width, {
                 name = 'PawnShop'..key,
                 heading = value.heading,
-                minZ = Config.PawnLocation[1].coords.z - 4,
-                maxZ = Config.PawnLocation[1].coords.z + 4,
+                minZ = value.coords.z - 4,  
+                maxZ = value.coords.z + 4,
             })
         end
         local pawnShopCombo = ComboZone:Create( zone, { name = 'NewPawnShopCombo', debugPoly = false })

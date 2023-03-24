@@ -1,36 +1,43 @@
 Config = {}
 
-Config.PawnLocation = { 
+Config.PawnLocation = {  
     [1] = {
-            coords = vector3(387.44, 3584.71, 33.29),    -- Near Sandy
+            coords = vector3(387.44, 3584.71, 33.29),       -- Near Sandy
             length = 1.5,
             width = 1.8,
             heading = 207.0,
             debugPoly = false,
-            minZ = nil,                                  -- MinZ needs to be below the Z-axis(~3) of your coords!!!
-            maxZ = nil,                                  -- MaxZ should be above Z-axis(~3) of your coords!!!
+            minZ = nil,                                     -- MinZ needs to be below the Z-axis(~3) of your coords!!!
+            maxZ = nil,                                     -- MaxZ should be above Z-axis(~3) of your coords!!!
             distance = 3.0
         },
-
-
-    -- TODO: Add more locations
-    --[[2] = {
-            coords = vector3(-1123.89, 4893.41, 218.47), -- Nudist village
+    [2] = {
+            coords = vector3(-1123.89, 4893.41, 218.47),    -- Nudist village
             length = 1.5,
             width = 1.8,
             heading = 207.0,
             debugPoly = false,
-            minZ = nil,  
-            maxZ = nil, 
+            minZ = nil,
+            maxZ = nil,
             distance = 3.0
-        },]]
+        },
+    [3] = {
+            coords = vector3(1673.67, 4957.25, 42.32),      -- GrapeSeed village
+            length = 1.5,
+            width = 1.8,
+            heading = 207.0,
+            debugPoly = false,
+            minZ = nil,
+            maxZ = nil,
+            distance = 3.0
+        },    
     }
 
 Config.BankMoney = false        -- Set to true if you want the money to go into the players bank
 Config.UseTimes = false         -- Set to false if you want the pawnshop open 24/7
 Config.TimeOpen = 7             -- Opening Time
 Config.TimeClosed = 17          -- Closing Time
-Config.SendMeltingEmail = true
+Config.SendMeltingEmail = true  -- enable/disable email when melting finished
 
 Config.UseTarget = GetConvar('UseTarget', 'false') == 'true'
 
