@@ -22,8 +22,8 @@ Config.Shops = {
                 vector2(2432.38, 4519.5), -- default:vector2(-33.342102050781, -1101.0377197266) customs:vector2(2432.38, 4519.5)
                 vector2(2424.13, 4537.46) -- default:vector2(-31.292987823486, -1095.3717041016) customs:vector2(2424.13, 4537.46)
             },
-            ['minZ'] = 25.0, -- min height of the shop zone
-            ['maxZ'] = 70.0, -- max height of the shop zone
+            ['minZ'] = 35, -- min height of the shop zone
+            ['maxZ'] = 41, -- max height of the shop zone
             ['size'] = 2.75 -- size of the vehicles zones
         },
         ['Job'] = 'none', -- Name of job or none
@@ -89,8 +89,8 @@ Config.Shops = {
                 vector2(-463.44, 6107.4),
                 vector2(-453.96, 6097.08)
             },
-            ['minZ'] = 34,
-            ['maxZ'] = 40,
+            ['minZ'] = 29,
+            ['maxZ'] = 37,
             ['size'] = 2.75 -- size of the vehicles zones
         },
         ['Job'] = 'cardealer', -- Name of job or none
@@ -226,8 +226,8 @@ Config.Shops = {
                 vector2(890.06, -1155.0),
                 vector2(907.71, -1168.71)
             },
-            ['minZ'] = 23.0, -- min height of the shop zone
-            ['maxZ'] = 28.0, -- max height of the shop zone
+            ['minZ'] = 30, -- min height of the shop zone
+            ['maxZ'] = 36, -- max height of the shop zone
             ['size'] = 5.75 -- size of the vehicles zones
         },
         ['Job'] = 'none', -- Name of job or none
