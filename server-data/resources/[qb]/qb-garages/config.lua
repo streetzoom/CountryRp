@@ -67,8 +67,8 @@ Config.Garages = {
         ["vehicle"] = "car"                 --car, air, sea, rig
     },]]
  
-    ["pillboxgarage"] = {
-        ["label"] = "Pillbox Garage Parking",
+    ["paletobellfarm"] = {   -- Paleto Bell Farm
+        ["label"] = "Paleto Bell Farm",
         ["takeVehicle"] = vector3(80.79, 6423.72, 31.67), -- default: vector3(215.9499, -809.698, 30.731), take in 'Bell Farms Parking' - haanparking
         ["spawnPoint"] = vector4(75.33, 6401.41, 30.65, 135.77), -- default: vector4(234.1942, -787.066, 30.193, 159.6),
         ["putVehicle"] = vector3(78.34, 6418.74, 31.28), -- default: vector3(218.0894, -781.370, 30.389),

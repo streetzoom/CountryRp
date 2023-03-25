@@ -205,7 +205,7 @@ RegisterNetEvent('qb-vehicleshop:server:buyShowroomVehicle', function(vehicle)
             GetHashKey(vehicle),
             '{}',
             plate,
-            'pillboxgarage',
+            'paletobellfarm',
             0
         })
         TriggerClientEvent('QBCore:Notify', src, Lang:t('success.purchased'), 'success')
@@ -219,7 +219,7 @@ RegisterNetEvent('qb-vehicleshop:server:buyShowroomVehicle', function(vehicle)
             GetHashKey(vehicle),
             '{}',
             plate,
-            'pillboxgarage',
+            'paletobellfarm',
             0
         })
         TriggerClientEvent('QBCore:Notify', src, Lang:t('success.purchased'), 'success')
@@ -255,7 +255,7 @@ RegisterNetEvent('qb-vehicleshop:server:financeVehicle', function(downPayment, p
             GetHashKey(vehicle),
             '{}',
             plate,
-            'pillboxgarage',
+            'paletobellfarm',
             0,
             balance,
             vehPaymentAmount,
@@ -273,7 +273,7 @@ RegisterNetEvent('qb-vehicleshop:server:financeVehicle', function(downPayment, p
             GetHashKey(vehicle),
             '{}',
             plate,
-            'pillboxgarage',
+            'paletobellfarm',
             0,
             balance,
             vehPaymentAmount,
@@ -315,7 +315,7 @@ RegisterNetEvent('qb-vehicleshop:server:sellShowroomVehicle', function(data, pla
                 GetHashKey(vehicle),
                 '{}',
                 plate,
-                'pillboxgarage',
+                'paletobellfarm',
                 0
             })
             TriggerClientEvent('qb-vehicleshop:client:buyShowroomVehicle', target.PlayerData.source, vehicle, plate)
@@ -332,7 +332,7 @@ RegisterNetEvent('qb-vehicleshop:server:sellShowroomVehicle', function(data, pla
                 GetHashKey(vehicle),
                 '{}',
                 plate,
-                'pillboxgarage',
+                'paletobellfarm',
                 0
             })
             TriggerClientEvent('qb-vehicleshop:client:buyShowroomVehicle', target.PlayerData.source, vehicle, plate)
@@ -383,7 +383,7 @@ RegisterNetEvent('qb-vehicleshop:server:sellfinanceVehicle', function(downPaymen
                 GetHashKey(vehicle),
                 '{}',
                 plate,
-                'pillboxgarage',
+                'paletobellfarm',
                 0,
                 balance,
                 vehPaymentAmount,
@@ -404,7 +404,7 @@ RegisterNetEvent('qb-vehicleshop:server:sellfinanceVehicle', function(downPaymen
                 GetHashKey(vehicle),
                 '{}',
                 plate,
-                'pillboxgarage',
+                'paletobellfarm',
                 0,
                 balance,
                 vehPaymentAmount,
