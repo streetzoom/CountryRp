@@ -38,7 +38,7 @@ function Config.OnBlackout(isBlackout)
     end
 end
 
-Config.HitsNeeded = 13 -- The amount of powerstation needed to be hit to cause a blackout
+Config.HitsNeeded = 1 -- The amount of powerstation needed to be hit to cause a blackout
 Config.BlackoutTimer = 10 -- The amount of minutes a blackout will take until all power comes back
 
 Config.RewardTypes = {
