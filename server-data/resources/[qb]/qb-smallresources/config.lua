@@ -216,7 +216,7 @@ Config.BlacklistedVehs = {
     [`scarab3`] = true,
     [`rrocket`] = true,
     [`ruiner2`] = true,
-    [`deluxo`] = true,
+    [`deluxo`] = false,
     [`cargoplane2`] = true,
     [`voltic2`] = true,
 }
