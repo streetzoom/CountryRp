@@ -1,9 +1,10 @@
 -- Variables
 local QBCore = exports['qb-core']:GetCoreObject()
 local PlayerData = QBCore.Functions.GetPlayerData()
+local max = nil
 local route = 1
-local max = #Config.NPCLocations.Locations
 local busBlip = nil
+local RandomRoute = nil
 
 local NpcData = {
     Active = false,
@@ -37,6 +38,18 @@ local function resetNpcTask()
         NpcTaken = false,
         NpcDelivered = false,
     }
+end
+
+local function getRandomCurrentRoute()
+    RandomRoute = math.random(1, 2)
+
+    if RandomRoute == 1 then
+        Config.BusRoute.Locations = Config.NPCLocations.Locations
+    elseif RandomRoute == 2 then
+        Config.BusRoute.Locations = Config.NPCLocations.Locations2
+    end
+    local argh = tostring(Config.BusRoute.Locations[1])
+    print(Lang:t('info.BusStopVector', {value = argh}))
 end
 
 local function updateBlip()
@@ -73,7 +86,13 @@ local function whitelistedVehicle()
     return retval
 end
 
-local function nextStop()
+local function nextStop()   
+    if RandomRoute == 1 then
+        max = #Config.NPCLocations.Locations
+    elseif RandomRoute == 2 then
+        max = #Config.NPCLocations.Locations2
+    end
+
     if route <= (max - 1) then
         route = route + 1
     else
@@ -86,14 +105,16 @@ local function GetDeliveryLocation()
     if NpcData.DeliveryBlip ~= nil then
         RemoveBlip(NpcData.DeliveryBlip)
     end
-    NpcData.DeliveryBlip = AddBlipForCoord(Config.NPCLocations.Locations[route].x, Config.NPCLocations.Locations[route].y, Config.NPCLocations.Locations[route].z)
+    NpcData.DeliveryBlip = AddBlipForCoord(Config.BusRoute.Locations[route].x, Config.BusRoute.Locations[route].y, Config.BusRoute.Locations[route].z)
+    local argh = tostring(Config.BusRoute.Locations[1])
+    print(Lang:t('info.BusStopVector', {value = argh}))
     SetBlipColour(NpcData.DeliveryBlip, 3)
     SetBlipRoute(NpcData.DeliveryBlip, true)
     SetBlipRouteColour(NpcData.DeliveryBlip, 3)
     NpcData.LastDeliver = route
     local inRange = false
-    local PolyZone = CircleZone:Create(vector3(Config.NPCLocations.Locations[route].x,
-        Config.NPCLocations.Locations[route].y, Config.NPCLocations.Locations[route].z), 5, {
+    local PolyZone = CircleZone:Create(vector3(Config.BusRoute.Locations[route].x,
+        Config.BusRoute.Locations[route].y, Config.BusRoute.Locations[route].z), 5, {
         name = "busjobdeliver",
         useZ = true,
         -- debugPoly=true
@@ -111,7 +132,7 @@ local function GetDeliveryLocation()
                         TaskLeaveVehicle(NpcData.Npc, veh, 0)
                         SetEntityAsMissionEntity(NpcData.Npc, false, true)
                         SetEntityAsNoLongerNeeded(NpcData.Npc)
-                        local targetCoords = Config.NPCLocations.Locations[NpcData.LastNpc]
+                        local targetCoords = Config.BusRoute.Locations[NpcData.LastNpc]
                         TaskGoStraightToCoord(NpcData.Npc, targetCoords.x, targetCoords.y, targetCoords.z, 1.0, -1, 0.0, 0.0)
                         QBCore.Functions.Notify(Lang:t('success.dropped_off'), 'success')
                         if NpcData.DeliveryBlip ~= nil then
@@ -215,6 +236,7 @@ RegisterNetEvent('QBCore:Client:OnJobUpdate', function(JobInfo)
 end)
 
 RegisterNetEvent('qb-busjob:client:DoBusNpc', function()
+    getRandomCurrentRoute()
     if whitelistedVehicle() then
         if not NpcData.Active then
             local Gender = math.random(1, #Config.NpcSkins)
@@ -224,22 +246,24 @@ RegisterNetEvent('qb-busjob:client:DoBusNpc', function()
             while not HasModelLoaded(model) do
                 Wait(0)
             end
-            NpcData.Npc = CreatePed(3, model, Config.NPCLocations.Locations[route].x, Config.NPCLocations.Locations[route].y, Config.NPCLocations.Locations[route].z - 0.98, Config.NPCLocations.Locations[route].w, false, true)
+            NpcData.Npc = CreatePed(3, model, Config.BusRoute.Locations[route].x, Config.BusRoute.Locations[route].y, Config.BusRoute.Locations[route].z - 0.98, Config.BusRoute.Locations[route].w, false, true)
+            local argh = tostring(Config.BusRoute.Locations[1])
+            print(Lang:t('info.BusStopVector', {value = argh}))
             PlaceObjectOnGroundProperly(NpcData.Npc)
             FreezeEntityPosition(NpcData.Npc, true)
             if NpcData.NpcBlip ~= nil then
                 RemoveBlip(NpcData.NpcBlip)
             end
             QBCore.Functions.Notify(Lang:t('info.goto_busstop'), 'primary')
-            NpcData.NpcBlip = AddBlipForCoord(Config.NPCLocations.Locations[route].x, Config.NPCLocations.Locations[route].y, Config.NPCLocations.Locations[route].z)
+            NpcData.NpcBlip = AddBlipForCoord(Config.BusRoute.Locations[route].x, Config.BusRoute.Locations[route].y, Config.BusRoute.Locations[route].z)
             SetBlipColour(NpcData.NpcBlip, 3)
             SetBlipRoute(NpcData.NpcBlip, true)
             SetBlipRouteColour(NpcData.NpcBlip, 3)
             NpcData.LastNpc = route
             NpcData.Active = true
             local inRange = false
-            local PolyZone = CircleZone:Create(vector3(Config.NPCLocations.Locations[route].x,
-                Config.NPCLocations.Locations[route].y, Config.NPCLocations.Locations[route].z), 5, {
+            local PolyZone = CircleZone:Create(vector3(Config.BusRoute.Locations[route].x,
+                Config.BusRoute.Locations[route].y, Config.BusRoute.Locations[route].z), 5, {
                 name = "busjobdeliver",
                 useZ = true,
                 -- debugPoly=true
@@ -294,6 +318,7 @@ end)
 
 -- Threads
 CreateThread(function()
+    --getRandomCurrentRoute()
     local inRange = false
     local PolyZone = CircleZone:Create(vector3(Config.Location.x, Config.Location.y, Config.Location.z), 5, {
         name = "busMain",

@@ -15,7 +15,8 @@ local Translations = {
         bus_plate = 'BUS', -- Can be 3 or 4 characters long (uses random 4 digits)
         bus_depot = 'Bus Depot',
         bus_stop_work = '[E] Stop Working',
-        bus_job_vehicles = '[E] Job Vehicles'
+        bus_job_vehicles = '[E] Job Vehicles',
+        BusStopVector = 'Current bus stop is: %{value}!'
     },
     menu = {
         bus_header = 'Bus Vehicles',

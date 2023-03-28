@@ -1,10 +1,13 @@
 local QBCore = exports['qb-core']:GetCoreObject()
+local BusCurrentRoute = require("qb-busjob.client.main")
 
 function NearBus(src)
     local ped = GetPlayerPed(src)
     local coords = GetEntityCoords(ped)
-    for _, v in pairs(Config.NPCLocations.Locations) do
-        local dist = #(coords - vector3(v.x,v.y,v.z))
+    for _, v in pairs(Config.BusRoute.Locations) do
+        local argh = tostring(Config.BusRoute.Locations[1])
+        print(Lang:t('info.BusStopVector', {value = argh}))
+    
         if dist < 20 then
             return true
         end
