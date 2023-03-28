@@ -633,6 +633,23 @@ Config.Locations = {
         ["delivery"] = vector4(-342.9, 6098.15, 31.32, 221.34)
     },
 
+    ["ammunation3"] = {
+        ["label"] = "Ammunation",
+        ["type"] = "weapon",
+        ["coords"] = vector4(-1118.4, 2700.35, 18.55, 210.88), -- Next to Sand3
+        ["ped"] = 's_m_y_ammucity_01',
+        ["scenario"] = "WORLD_HUMAN_COP_IDLES",
+        ["radius"] = 1.5,
+        ["targetIcon"] = "fas fa-gun",
+        ["targetLabel"] = "Open Ammunation",
+        ["products"] = Config.Products["weapons"],
+        ["showblip"] = true,
+        ["blipsprite"] = 110,
+        ["blipscale"] = 0.6,
+        ["blipcolor"] = 5,
+        ["delivery"] = vector4(-1130.91, 2699.68, 18.8, 305.64)
+    },
+
     -- Casino Locations | Need to be relocated to some City 
     --[["casino"] = {
         ["label"] = "Diamond Casino",
