@@ -1,7 +1,7 @@
 fx_version 'cerulean'
 game 'gta5'
 description 'UM-Admin'
-version '1.0.0'
+version '1.3.0'
 
 shared_scripts {
     '@qb-core/shared/locale.lua',
@@ -33,3 +33,9 @@ files {
 }
 
 lua54 'yes'
+
+dependencies {
+    '/server:5848',
+    '/onesync',
+    'qb-core'
+}
